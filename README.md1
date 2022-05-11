@@ -1,0 +1,18 @@
+import sys
+import os
+from github import github
+
+path=""add the path of the folder
+
+username=""#insert your github username here
+password=""#insert your github password here
+
+def create();
+        foldername=str(sys.argv.[1])
+        os.makedirs(path+str(foldername))
+        user=Github(username,password).get_user()
+        repo=user.create_repo(folder)
+        print("succesfully create respository{}".format(foldername))
+        
+        if _name_=="_main_":
+        create()
